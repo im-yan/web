@@ -1,0 +1,44 @@
+body,ul,li {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+body,html {
+    height:100%;
+}
+
+.my-box {
+    background-color:black;
+}
+
+.my-box > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .item {
+    height:100vh;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+.my-box > .owl-carousel > .owl-dots {
+    margin:0 !important;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+}
+
+.my-box > .owl-carousel > .owl-nav > .owl-prev, .my-box > .owl-carousel > .owl-nav > .owl-next {
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translatey(-50%);
+    border-radius:50%;
+    background-color:rgba(0,0,0,0.5);
+    font-size:3rem;
+    padding:0px 20px 0px 15px;
+}
+
+.my-box > .owl-carousel > .owl-nav > .owl-next {
+    right:0;
+    left:auto;
+}
