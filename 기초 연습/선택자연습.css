@@ -1,0 +1,24 @@
+html { /* 1개 */ }
+body { /* 1개 */ }
+html body { /* 1개 */ }
+html > body { /* 1개 */ }
+html, body { /* 2개 */ }
+ul { /* 3개 */ }
+body > ul { /* 3개 */ }
+body ul { /* 3개 */ }
+body > nav > ul { /* 1개 */ }
+body > nav ul { /* 3개 */ }
+body > nav.menu-1 ul { /* 3개 */ }
+body > nav.menu-1 ul ul { /* 2개 */ }
+body > nav.menu-1 ul ul ul { /* 0개 */ }
+body > nav.menu-1 li { /* 6개 */ }
+body > nav.menu-1 li li { /* 2개 */ }
+body > nav.menu-1 > ul { /* 1개 */ }
+body > nav.menu-1 > ul li { /* 6개 */ }
+body > nav.menu-1 > ul > li { /* 2개 */ }
+body > nav.menu-1 > ul > li a { /* 6개 */ }
+body > nav.menu-1 > ul > li > a { /* 2개 */ }
+body > nav.menu-1 li > a { /* 6개 */ }
+body > nav.menu-1 li:hover > a { /* 1개 */ }
+body > nav.menu-1 li > ul { /* 2개 */ }
+body > nav.menu-1 li:hover > ul { /* 1개 */ }

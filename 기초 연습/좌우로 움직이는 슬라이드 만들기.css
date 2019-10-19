@@ -1,0 +1,22 @@
+.slider > .btns > button {
+    font-size:6rem;
+}
+
+.slider > .slides::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.slider > .slides > div {
+    float:left;
+    width:20%;
+    box-sizing:border-box;
+    height:100px;
+    background-color:#dfdfdf;
+    border:10px solid green;
+}
+
+.slider > .slides > div.active {
+    border-color:red;
+}

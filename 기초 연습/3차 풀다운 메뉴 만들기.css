@@ -1,0 +1,64 @@
+body,ul,li {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+a {
+    color:inherit;
+    text-decoration:none;
+}
+
+.menubox {
+    text-align:center;
+}
+
+
+.menubox ul ul{
+    display:none;
+    position:absolute;
+    left:0%;
+    width:100%;
+    top:100%;
+}
+
+.menubox ul ul ul {
+    left:100%;
+    top:0%;
+}
+
+.menubox ul {
+    background-color:#efefef;
+}
+.menubox > ul {
+    display:inline-block;
+    padding:0 10px;
+    border-radius:18px;
+}
+
+.menubox > ul > li:last-child > ul ul {
+    left:auto;
+    right:100%;
+}
+
+.menubox > ul > li {
+    display:inline-block;
+}
+
+.menubox  ul > li > a {
+    display:block;
+    padding:18px;
+}
+
+.menubox ul > li:hover > a {
+    background-color:black;
+    color:white;
+}
+
+.menubox  ul > li:hover > ul {
+    display:block;
+}
+
+.menubox ul>li {
+    position:relative;
+}
