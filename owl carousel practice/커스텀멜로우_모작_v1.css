@@ -1,0 +1,39 @@
+body,ul,li {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.customellow > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .item {
+    height:600px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.customellow > .owl-carousel > .owl-nav {
+    margin:0 !important;
+}
+
+.customellow > .owl-carousel > .owl-nav > .owl-prev, .customellow > .owl-carousel > .owl-nav > .owl-next {
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translatey(-50%);
+    border-radius:0 !important;
+    background-color:transparent;
+    font-size:4rem;
+    margin:0 20px;
+    padding:0;
+}
+
+.customellow > .owl-carousel > .owl-nav > .owl-next {
+    left:auto;
+    right:0;
+}
+
+.customellow > .owl-carousel > .owl-dots {
+    margin:20px 0 0 0;
+    padding:0;
+}
+

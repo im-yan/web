@@ -1,0 +1,54 @@
+body,ul,li {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+a {
+    color:inherit;
+    text-decoration:none;
+}
+
+.customellowV2 > .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > .item {
+    height:600px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.customellowV2 > .owl-carousel > .owl-nav {
+    margin:0 !important;
+}
+
+.customellowV2 > .owl-carousel > .owl-nav > .owl-prev,.customellowV2 > .owl-carousel > .owl-nav > .owl-next {
+    position:absolute;
+    top:50%;
+    transform:translatey(-50%);
+    left:0;
+    font-size:4rem;
+    background-color:transparent !important;
+    margin:0 20px;
+    padding:0;
+    border-radius:0 !important;
+}
+
+.customellowV2 > .owl-carousel > .owl-nav > .owl-next {
+    left:auto;
+    right:0;
+}
+
+.customellowV2 > .owl-carousel > .owl-dots {
+    position:absolute;
+    width:100%;
+    left:0;
+    bottom:0;
+    line-height:0;
+    padding:20px 0;
+}
+
+.customellowV2 > .owl-carousel > .owl-dots > .owl-dot > span {
+    width:30px;
+    height:10px;
+    border-radius:0;
+    margin:0;
+}
