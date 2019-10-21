@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8f4cf94-65b6-4747-9786-9a4293d51d3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/커스텀멜로우_모작_v1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/커스텀멜로우_모작_v1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/커스텀멜로우_모작_v2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/커스텀멜로우_모작_v2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/커스텀멜로우_모작_v2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/커스템멜로우_모작_v1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이나비_모작.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이나비_모작.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/아이나비_모작.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +33,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571632976018</updated>
-      <workItem from="1571632980243" duration="327000" />
+      <workItem from="1571632980243" duration="1038000" />
     </task>
     <servers />
   </component>
