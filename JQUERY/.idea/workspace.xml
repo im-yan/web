@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8f4cf94-65b6-4747-9786-9a4293d51d3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/아이나비_모작.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/아이나비_모작.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/아이나비_모작.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e9b804c6-35cd-436b-b373-8b0d8243b1b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/탭박스만들기 v1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/탭박스만들기 v1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/탭박스만들기 v1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../owl carousel practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../owl carousel practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../비비엔느 모작연습/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../비비엔느 모작연습/비비엔느 사이트 모작연습 1.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1SUzUDxRgh63McI4XG5xb8mUXvP" />
+  <component name="ProjectId" id="1SZ2fLvVdtFZqGpHEtqglPKK0YS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -33,12 +35,6 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,12 +53,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a8f4cf94-65b6-4747-9786-9a4293d51d3d" name="Default Changelist" comment="" />
-      <created>1571632976018</created>
+      <changelist id="e9b804c6-35cd-436b-b373-8b0d8243b1b0" name="Default Changelist" comment="" />
+      <created>1571756900113</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571632976018</updated>
-      <workItem from="1571632980243" duration="1082000" />
+      <updated>1571756900113</updated>
+      <workItem from="1571756904577" duration="189000" />
     </task>
     <servers />
   </component>
