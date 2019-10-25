@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9b804c6-35cd-436b-b373-8b0d8243b1b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/탭박스만들기 v2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/탭박스만들기 v2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/탭박스만들기 v2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../비비엔느 모작연습/css.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../비비엔느 모작연습/비비엔느 사이트 모작연습 1.html" beforeDir="false" />
@@ -35,6 +32,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -59,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571756900113</updated>
       <workItem from="1571756904577" duration="314000" />
-      <workItem from="1571790128957" duration="143000" />
+      <workItem from="1571790128957" duration="746000" />
     </task>
     <servers />
   </component>
