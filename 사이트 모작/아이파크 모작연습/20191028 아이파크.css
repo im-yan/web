@@ -1,0 +1,255 @@
+/*  폰트 적용 */
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+/* 노말라이즈 */
+body, ul, li {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+a {
+    color:inherit;
+    text-decoration:none;
+}
+
+/* 라이브러리 */
+.con {
+    margin:0 auto;
+}
+
+.img-box > img {
+    width:100%;
+    display:block;
+}
+
+.row::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.cell {
+    float:left;
+    box-sizing:border-box;
+}
+
+.cell-right {
+    float:right;
+    box-sizing:border-box;
+}
+
+.margin-0-auto {
+    margin:0 auto;
+}
+
+.block {
+    display:block;
+}
+
+.inline-block {
+    display:inline-block;
+}
+
+.text-align-center {
+    text-align:center;
+}
+
+.line-height-0-ch-only {
+    line-height:0;
+}
+
+.line-height-0-ch-only > * {
+    line-height:normal;
+}
+
+.relative {
+    position:relative;
+}
+
+.absolute-left {
+    position:absolute;
+    left:0;
+}
+
+.absolute-right {
+    position:absolute;
+    right:0;
+}
+
+.absolute-middle {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+/* 커스텀 */
+
+/* 고정형 레이아웃 용 */
+.con {
+    width:1170px;
+}
+
+.con-min-width {
+    min-width:1170px;
+}
+
+/* .prod-list-box-1 시작 */
+.prod-list-box-1 {
+    margin-top:50px;
+}
+
+.prod-list-box-1 > ul {
+    margin-left:-30px;
+    margin-right:-30px;
+}
+
+.prod-list-box-1 > ul > li {
+    width:33.3333%;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.prod-list-box-1 > ul > li > .type {
+    margin-top:20px;
+    font-size:14px;
+}
+
+.prod-list-box-1 > ul > li > .type.resident {
+    color:#796a5e;
+}
+
+.prod-list-box-1 > ul > li > .type.resident::after {
+    content:"주상복합";
+}
+
+.prod-list-box-1 > ul > li > .title {
+    font-weight:bold;
+    font-size:30px;
+}
+
+.prod-list-box-1 > ul > li > .sub-infos {
+    margin-top:20px;
+}
+
+.prod-list-box-1 > ul > li > .sub-infos > li > div {
+    font-size:14px;
+}
+
+.prod-list-box-1 > ul > li > .sub-infos > li:not(:last-child) {
+    margin-bottom:5px;
+}
+
+.prod-list-box-1 > ul > li > .sub-infos > li > div:first-child {
+    width:70px;
+}
+
+.prod-list-box-1 > ul > li > .sub-infos > li > div:last-child {
+    width:calc(100% - 90px);
+    color:#777;
+}
+
+.prod-list-box-1 > ul > li > .btns {
+    margin-top:20px;
+    margin-left:-5px;
+    margin-right:-5px;
+}
+
+.prod-list-box-1 > ul > li > .btns > li {
+    width:50%;
+    padding:0 5px;
+}
+
+.prod-list-box-1 > ul > li > .btns > li > a {
+    border:1px solid black;
+    text-align:center;
+    padding:10px 0;
+    font-size:14px;
+    cursor:pointer;
+    position:relative;
+    transition:color 0.2s;
+    overflow:hidden;
+}
+
+.prod-list-box-1 > ul > li > .btns > li > .btn-bookmark {
+    border-color:#f03223;
+    color:#f03223;
+}
+
+.prod-list-box-1 > ul > li > .btns > li > .btn-bookmark::before {
+    content:"관심단지등록";
+}
+
+.prod-list-box-1 > ul > li > .btns > li > .btn-homepage::before {
+    content:"홈페이지";
+}
+
+.prod-list-box-1 > ul > li > .btns > li:hover > a {
+    color:white;
+
+}
+
+.prod-list-box-1 > ul > li > .btns > li > a::after {
+    content:"";
+    position:absolute;
+    top:0;
+    right:110%;
+    width:100px;
+    height:300px;
+    z-index:-1;
+    background-color:black;
+    transform-origin:top right;
+    transition:transform 0.2s;
+}
+
+.prod-list-box-1 > ul > li > .btns > li:hover > a::after {
+    transform:rotate(-90deg);
+}
+
+.prod-list-box-1 > ul > li > .btns > li > .btn-bookmark::after {
+    background-color:#f03223;
+}
+
+.prod-list-box-1 > ul > li .status-tag {
+    width:70px;
+    height:81px;
+    font-size:13px;
+    color:white;
+    text-align:center;
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+    margin-bottom:-65px;
+}
+
+.prod-list-box-1 > ul > li .status-tag::before {
+    content:"분양예정";
+    background-color:#A59487;
+    display:block;
+    padding-top:20px;
+    padding-bottom:5px;
+}
+
+.prod-list-box-1 > ul > li > a > .status-tag::after {
+    content:"";
+    background-color:#A59478;
+    height:90px;
+    display:block;
+    position:relative;
+    z-index:-1;
+    transform:rotate(-62deg);
+    transform-origin:top left;
+}
+
+.prod-list-box-1 > ul > li > .img-box {
+    transition:transform 0.2s ,box-shadow 0.2s;
+}
+
+.prod-list-box-1 > ul > li > .img-box:hover {
+    transform:translatey(-10px);
+    box-shadow:0 0 78px gray;
+}
