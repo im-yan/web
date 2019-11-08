@@ -1,0 +1,14 @@
+section {
+    border:10px solid blue;
+}
+
+section > div {
+    width:100px;
+    height:100px;
+    background-color:red;
+    display:inline-block;
+}
+
+section > div.active {
+    background-color:green;
+}
